@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modou Lamin Kinteh | Data Science & AI Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Modou Lamin Kinteh — Data Science Student, AI Enthusiast, and Community Leader. Specialized in ML, NLP, and Analytics.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">MLK</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#about" class="active">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-extras">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-greeting">Hi, I'm <span class="highlight-gold">Modou Lamin Kinteh</span></h2>
+                    <h1 class="hero-title">Transforming Data into <span class="highlight-teal">Intelligence</span></h1>
+                    <p class="hero-subtitle">Data Science Student | AI Enthusiast | Community Leader</p>
+                    <p class="hero-desc">Based in Gambia 🇬🇲 & Studying in Malaysia 🇲🇾. Specialized in Machine
+                        Learning, NLP, and Deep Learning.</p>
+
+                    <div class="hero-btns">
+                        <a href="https://drive.google.com/file/d/1HpgxaGf0vM1_wOYpnSTaqcOkq8Iy4413/view?usp=drive_link"
+                            target="_blank" class="btn btn-primary btn-gold">
+                            <i class="fas fa-file-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-teal">
+                            Let's Talk <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="13">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="6">0</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Leadership Roles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-frame">
+                        <img src="image/mypict.jfif" alt="Modou Lamin Kinteh" class="profile-img">
+                        <div class="frame-blob"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Discovery</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-card">
+                        <p>I'm a Computer Science student with a deep focus on <strong>Data Science</strong> at AIU
+                            Malaysia. I'm passionate about building intelligent systems that can parse reality through
+                            data.</p>
+                        <p>Currently serving as the <strong>President of the Gambian Association</strong> and
+                            <strong>Head of IT for the Quranic Club</strong>, I bridge the gap between technical
+                            execution and community leadership.
+                        </p>
+                        <p>My goal is to apply analytical modeling to solve real-world challenges, particularly in the
+                            African context and beyond.</p>
+
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>CS Student @ AIU</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <span>Leader & Mentor</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Open Source Contributor</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-badges">
+                        <div class="info-card">
+                            <i class="fas fa-envelope highlight-teal"></i>
+                            <div class="info-content">
+                                <span>Email</span>
+                                <p>kintehmodoulamin02@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone highlight-gold"></i>
+                            <div class="info-content">
+                                <span>Phone</span>
+                                <p>+60 11-2805 4213</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt highlight-teal"></i>
+                            <div class="info-content">
+                                <span>Location</span>
+                                <p>Alor Setar, Malaysia 🇲🇾</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-spacing secondary-bg">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Expertise</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="programming">Programming</button>
+                    <button class="filter-btn" data-filter="ds">Data Science & ML</button>
+                    <button class="filter-btn" data-filter="tools">Tools & Platforms</button>
+                </div>
+
+                <div class="skills-container" id="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-group" data-category="programming">
+                        <h3>Programming & DB</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span class="percentage">85%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>R</span>
+                                <span class="percentage">70%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ML/AI -->
+                    <div class="skill-group" data-category="ds">
+                        <h3>Data Science & ML</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span class="percentage">85%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Statistics & Viz</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Computer Vision</span>
+                                <span class="percentage">80%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>NLP</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-group" data-category="tools">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Excel (Advanced)</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Power BI & Tableau</span>
+                                <span class="percentage">80%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Google Cloud</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar teal" style="width: 0%" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git & GitHub</span>
+                                <span class="percentage">70%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-bar gold" style="width: 0%" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="ml">ML / AI</button>
+                    <button class="filter-btn" data-filter="viz">Visualization</button>
+                    <button class="filter-btn" data-filter="db">Database</button>
+                </div>
+
+                <div class="project-grid">
+                    <!-- Project: Mobile Review Sentiment Analysis -->
+                    <article class="project-card" data-category="ml">
+                        <div class="project-img-wrapper">
+                            <img src="image/sentiment_analysis.png" alt="Mobile Review Sentiment Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/mobile-review-sentiment-analysis"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="https://mobilesentimentanalysis-gq7paebmnxp4xqegysappkd.streamlit.app/"
+                                        target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-gold">NLP & ML</span>
+                            <h3>Mobile Review Sentiment Analysis</h3>
+                            <p>ML application for analyzing sentiment in mobile phone reviews with real-time predictions
+                                and brand analytics.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="Language">Python</span>
+                                <span data-tooltip="Framework">Streamlit</span>
+                                <span data-tooltip="ML Library">Scikit-Learn</span>
+                                <span data-tooltip="Feature Engineering">NLP</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 1 -->
+                    <article class="project-card" data-category="ml">
+                        <div class="project-img-wrapper">
+                            <img src="image/Kuala lummpur housing price.png" alt="KL House Prediction">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/House-price-prediction-and-segmentation-Kuala-lumpur-Malaysia"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-teal">Predictive Analytics</span>
+                            <h3>KL House Price Prediction</h3>
+                            <p>Regression model to predict housing prices in Kuala Lumpur using advanced feature
+                                engineering.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="Language">Python</span>
+                                <span data-tooltip="ML Library">Scikit-Learn</span>
+                                <span data-tooltip="Data Handling">Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" data-category="ml">
+                        <div class="project-img-wrapper">
+                            <img src="image/African_player.png" alt="African Player Classification">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/African-Football-Player-Face-Classifier-Hakimi-Salah-Mahrez-Minteh-?tab=readme-ov-file"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="https://eqkytkdczfzfpv79jwubam.streamlit.app/" target="_blank"
+                                        title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-gold">Computer Vision</span>
+                            <h3>African Player Classification</h3>
+                            <p>Deep learning model classifying images of Gambian football players with high precision.
+                            </p>
+                            <div class="project-tech">
+                                <span data-tooltip="Framework">TensorFlow</span>
+                                <span data-tooltip="Imaging">OpenCV</span>
+                                <span data-tooltip="Architecture">Deep Learning</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card" data-category="ml">
+                        <div class="project-img-wrapper">
+                            <img src="image/customer_churn.png" alt="Churn Prediction">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/Customer-Churn-prediction" target="_blank"
+                                        title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-teal">Business Intel</span>
+                            <h3>Customer Churn Prediction</h3>
+                            <p>Identifying at-risk customers using classification models to drive retention strategies.
+                            </p>
+                            <div class="project-tech">
+                                <span data-tooltip="Method">ML</span>
+                                <span data-tooltip="Ensemble">XGBoost</span>
+                                <span data-tooltip="Domain">Analytics</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card" data-category="viz">
+                        <div class="project-img-wrapper">
+                            <img src="image/waiting_list.png" alt="Patient Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/Patient-Waitlist-Insights-Dashboard"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-gold">Healthcare</span>
+                            <h3>Patient Waiting List Dashboard</h3>
+                            <p>Interactive Power BI dashboard for monitoring hospital flow and improving efficiency.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="BI Tool">Power BI</span>
+                                <span data-tooltip="Expertise">Data Viz</span>
+                                <span data-tooltip="Industry">Healthcare</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card" data-category="db">
+                        <div class="project-img-wrapper">
+                            <img src="image/library.jpg" alt="Library SQL">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/Libraray_Management_sql_project"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-teal">Databases</span>
+                            <h3>SQL Library Management</h3>
+                            <p>Comprehensive system for managing library operations using complex SQL queries.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="Query Language">SQL</span>
+                                <span data-tooltip="RDBMS">MySQL</span>
+                                <span data-tooltip="Skill">Database Design</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project: Handwritten Classification -->
+                    <article class="project-card" data-category="ml">
+                        <div class="project-img-wrapper">
+                            <img src="image/handwritten_recognition.png" alt="Handwritten Classification">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/Handwritten-Recongnition" target="_blank"
+                                        title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Research Demo"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-gold">Deep Learning</span>
+                            <h3>Handwritten Writer Identification</h3>
+                            <p>Writer identification system using CNNs to learn distinctive handwriting patterns for
+                                automated forensic analysis.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="Model">CNN</span>
+                                <span data-tooltip="Processing">Grayscale & Patching</span>
+                                <span data-tooltip="Optimization">Adam</span>
+                                <span data-tooltip="Accuracy">81% Test Accuracy</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project: Sales Performance Power BI -->
+                    <article class="project-card" data-category="viz">
+                        <div class="project-img-wrapper">
+                            <img src="image/sales_performance.png" alt="Sales Performance Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/mlkinteh2/sales_performance_analysis-power-bi-"
+                                        target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                                    <a href="#" title="Live Dashboard"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="p-tag p-tag-teal">Business Intelligence</span>
+                            <h3>Sales Performance Dashboard</h3>
+                            <p>Interactive Power BI dashboard applying visualization principles to uncover sales trends
+                                and pricing relationships.</p>
+                            <div class="project-tech">
+                                <span data-tooltip="BI Tool">Power BI</span>
+                                <span data-tooltip="Visualization">Bar, Area, Bubble Charts</span>
+                                <span data-tooltip="Focus">Info Viz</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates section-spacing secondary-bg">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Credentials</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/Google advance cert.jpeg" alt="Google Certificate">
+                        </div>
+                        <div class="cert-body">
+                            <h4>Google Advanced Data Analytics</h4>
+                            <p>Professional Specialization in analytics & visualization.</p>
+                            <a href="image/Google advance cert.jpeg" target="_blank" class="cert-link">Verify <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/Ml specialization cert.jpeg" alt="ML Certificate">
+                        </div>
+                        <div class="cert-body">
+                            <h4>Machine Learning Specialization</h4>
+                            <p>Deep dive into Supervised & Unsupervised Learning.</p>
+                            <a href="image/Ml specialization cert.jpeg" target="_blank" class="cert-link">Verify <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/sql for data science.jpeg" alt="SQL Certificate">
+                        </div>
+                        <div class="cert-body">
+                            <h4>SQL for Data Science</h4>
+                            <p>Advanced querying for high-scale data analytics.</p>
+                            <a href="https://coursera.org/share/7d88bb71099590a230c925e031a55347" target="_blank"
+                                class="cert-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/cert_cloud.png" alt="Cloud Certificate">
+                        </div>
+                        <div class="cert-body">
+                            <h4>Google Cloud Foundations</h4>
+                            <p>Cloud architecture and ML API implementation.</p>
+                            <a href="https://www.skills.google/paths/36/badge" target="_blank" class="cert-link">Verify
+                                <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/Supervised_ibm.jpeg" alt="Supervised ML">
+                        </div>
+                        <div class="cert-body">
+                            <h4>Supervised Machine Learning</h4>
+                            <p>Predictive modeling for real-world tasks.</p>
+                            <a href="image/Supervised_ibm.jpeg" target="_blank" class="cert-link">Verify <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="image/EDA_ibm.jpeg" alt="EDA IBM">
+                        </div>
+                        <div class="cert-body">
+                            <h4>Exploratory Data Analysis</h4>
+                            <p>Uncovering patterns and insights from messy data.</p>
+                            <a href="image/EDA_ibm.jpeg" target="_blank" class="cert-link">Verify <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="section-header">
+                            <span class="section-subtitle">Communication</span>
+                            <h2 class="section-title">Get In Touch</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <p>Currently seeking internship opportunities in <strong>Data Science, AI, or Data
+                                Analytics</strong>. Whether you have a question or just want to say hi, I'll try my best
+                            to get back to you!</p>
+
+                        <div class="contact-methods">
+                            <div class="method-card">
+                                <i class="fas fa-envelope highlight-teal"></i>
+                                <div>
+                                    <h4>Email Me</h4>
+                                    <a href="mailto:kintehmodoulamin02@gmail.com">kintehmodoulamin02@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method-card">
+                                <i class="fas fa-phone highlight-gold"></i>
+                                <div>
+                                    <h4>Call Me</h4>
+                                    <a href="tel:+601128054213">+60 11-2805 4213</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/mlkinteh2" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fas fa-blog"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card shadow-lg">
+                        <form id="portfolio-contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Your message here..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-teal">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <div id="form-feedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-logo">MLK</div>
+            <p>&copy; <span id="year"></span> Modou Lamin Kinteh. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#about">About</a>
+                <a href="#projects">Work</a>
+                <a href="#contact">Hire Me</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
